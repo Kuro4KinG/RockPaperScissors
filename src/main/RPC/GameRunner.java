@@ -2,7 +2,7 @@ package main.RPC;
 
 public class GameRunner {
     public static void main(String[] args) {
-        Field newGame = new Field();
-
+        GameLogic gl = new GameLogic();
+        gl.start();
     }
 }
